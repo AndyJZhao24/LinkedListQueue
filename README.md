@@ -8,6 +8,7 @@ Then, provide the preferences of each female at the dance. Line n is female n's 
 
 I.e., 
 How many pairs are going to be dancing? **3**
+
 What are the preferences of the men?
 **2 3 1**       
 **3 2 1**
