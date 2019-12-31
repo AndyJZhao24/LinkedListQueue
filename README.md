@@ -10,13 +10,19 @@ I.e.,
 How many pairs are going to be dancing? **3**
 
 What are the preferences of the men?
+
 **2 3 1**       
+
 **3 2 1**
+
 **1 2 3**
 
 What are the preferences of the women?
+
 **1 2 3**
+
 **2 1 3**
+
 **1 3 2**
 
 
