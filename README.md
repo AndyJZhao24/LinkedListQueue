@@ -1,7 +1,7 @@
 # LinkedListQueue
 
 This program provides the optimal matching between pairs of men and women at a dance given their preferences.
-Run main.cpp in the /app dir.
+Run main.cpp in the /app dir. dancePairs.cpp in /app contains the implementation of the pairing function.
 For input, given the number of pairs that will be at the dance.
 Next, provide the preferences of each male at the dance. Line n is male n's preference list.
 Then, provide the preferences of each female at the dance. Line n is female n's preference list.
