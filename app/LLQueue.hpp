@@ -1,5 +1,5 @@
-#ifndef __PROJ2_QUEUE_HPP
-#define __PROJ2_QUEUE_HPP
+#ifndef __DANCEPAIRS_QUEUE_HPP
+#define __DANCEPAIRS_QUEUE_HPP
 
 #include "runtimeexcept.hpp"
 
@@ -14,13 +14,12 @@ template<typename Object>
 class LLQueue
 {
 private:
-	// fill in private member data here
 
 	//Nodes of our Linked list
 	struct QNode{
-		Object window_num; //Holds data for this node.
+		Object man_num; //Holds data for this node.
 		QNode* next; //Keeps track of next node in queue.
-		QNode(Object init_val, QNode* next_node = nullptr) : window_num(init_val), next(next_node) {} //Node constructor.
+		QNode(Object init_val, QNode* next_node = nullptr) : man_num(init_val), next(next_node) {} //Node constructor.
 	};
 
 	QNode *frontN, *rearN; //Pointers to first and last node, Will initially be nullptr when LLQueue object is instantiated.
@@ -30,11 +29,6 @@ private:
 public:
 	LLQueue();
 
-//	In principle, you should have copy constructors and 
-// assignment operators implemented.
-// I am not going to require it for this assignment.
-//	LLQueue(const LLQueue & st);
-//	LLQueue & operator=(const LLQueue & st);
 	~LLQueue()
 	{
 		while (not isEmpty()) //Wile the LLQueue is not empty.
@@ -51,12 +45,11 @@ public:
 
 	void enqueue(const Object & elem);
 
-// does not return anything.  Just removes. 
+	// does not return anything.  Just removes. 
 	void dequeue();
 };
 
 
-// TODO:  Fill in the functions here. 
 template<typename Object>
 LLQueue<Object>::LLQueue() : frontN(nullptr), rearN(nullptr), count(0) {} //Initializaiton list for constructor.
 
@@ -80,7 +73,7 @@ Object & LLQueue<Object>::front()
 	{
 		throw QueueEmptyException("Tried to access an empty queue."); 
 	}
-	return frontN -> window_num; //Return the data that frontN holds.
+	return frontN -> man_num; //Return the data that frontN holds.
 }
 
 template<typename Object>
@@ -90,7 +83,7 @@ const Object & LLQueue<Object>::front() const
 	{
 		throw QueueEmptyException("Tried to access an empty queue.");
 	}
-	return frontN -> window_num; //Return the data the frontN holds
+	return frontN -> man_num; //Return the data the frontN holds
 
 }
 

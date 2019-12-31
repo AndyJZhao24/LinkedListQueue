@@ -105,42 +105,42 @@ CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o.provides: CMakeFiles/a.out.gtest.d
 CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o
 
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o: ../app/proj2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o -c /home/ics46b/projects/proj2/app/proj2.cpp
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o: ../app/dancePairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o -c /home/ics46b/projects/proj2/app/dancePairs.cpp
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/proj2.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj2/app/proj2.cpp > CMakeFiles/a.out.gtest.dir/app/proj2.cpp.i
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj2/app/dancePairs.cpp > CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.i
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/proj2.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj2/app/proj2.cpp -o CMakeFiles/a.out.gtest.dir/app/proj2.cpp.s
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj2/app/dancePairs.cpp -o CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.s
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.requires:
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.requires:
 
-.PHONY : CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.requires
+.PHONY : CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.requires
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.provides
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.provides
 
-CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o
+CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o
 
 
 # Object files for target a.out.gtest
 a_out_gtest_OBJECTS = \
 "CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o" \
-"CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o"
+"CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o"
 
 # External object files for target a.out.gtest
 a_out_gtest_EXTERNAL_OBJECTS =
 
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o
-bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o
+bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/build.make
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/a.out.gtest"
@@ -153,7 +153,7 @@ CMakeFiles/a.out.gtest.dir/build: bin/a.out.gtest
 
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/gtest/tests1.cpp.o.requires
-CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o.requires
+CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o.requires
 
 .PHONY : CMakeFiles/a.out.gtest.dir/requires
 

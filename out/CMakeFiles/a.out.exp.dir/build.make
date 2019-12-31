@@ -81,40 +81,40 @@ CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o.provides: CMakeFiles/a.out.exp.dir/ex
 CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o
 
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.o: ../app/proj2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a.out.exp.dir/app/proj2.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/proj2.cpp.o -c /home/ics46b/projects/proj2/app/proj2.cpp
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o: CMakeFiles/a.out.exp.dir/flags.make
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o: ../app/dancePairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o -c /home/ics46b/projects/proj2/app/dancePairs.cpp
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.exp.dir/app/proj2.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj2/app/proj2.cpp > CMakeFiles/a.out.exp.dir/app/proj2.cpp.i
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ics46b/projects/proj2/app/dancePairs.cpp > CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.i
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.exp.dir/app/proj2.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj2/app/proj2.cpp -o CMakeFiles/a.out.exp.dir/app/proj2.cpp.s
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ics46b/projects/proj2/app/dancePairs.cpp -o CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.s
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.requires:
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.requires:
 
-.PHONY : CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.requires
+.PHONY : CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.requires
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.provides: CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.provides
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.provides: CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.provides
 
-CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/proj2.cpp.o
+CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.provides.build: CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o
 
 
 # Object files for target a.out.exp
 a_out_exp_OBJECTS = \
 "CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o" \
-"CMakeFiles/a.out.exp.dir/app/proj2.cpp.o"
+"CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o"
 
 # External object files for target a.out.exp
 a_out_exp_EXTERNAL_OBJECTS =
 
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o
-bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/proj2.cpp.o
+bin/a.out.exp: CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/build.make
 bin/a.out.exp: CMakeFiles/a.out.exp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ics46b/projects/proj2/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/a.out.exp"
@@ -126,7 +126,7 @@ CMakeFiles/a.out.exp.dir/build: bin/a.out.exp
 .PHONY : CMakeFiles/a.out.exp.dir/build
 
 CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/exp/expmain.cpp.o.requires
-CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/proj2.cpp.o.requires
+CMakeFiles/a.out.exp.dir/requires: CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o.requires
 
 .PHONY : CMakeFiles/a.out.exp.dir/requires
 

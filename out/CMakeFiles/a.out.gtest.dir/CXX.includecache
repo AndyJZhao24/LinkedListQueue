@@ -10,10 +10,12 @@
 runtimeexcept.hpp
 ../app/runtimeexcept.hpp
 
-../app/proj2.hpp
+../app/dancePairs.hpp
 map
 -
 iostream
+-
+sstream
 -
 
 ../app/runtimeexcept.hpp
@@ -24,13 +26,11 @@ string
 runtimeexcept.hpp
 /home/ics46b/projects/proj2/app/runtimeexcept.hpp
 
-/home/ics46b/projects/proj2/app/proj2.cpp
-proj2.hpp
-/home/ics46b/projects/proj2/app/proj2.hpp
+/home/ics46b/projects/proj2/app/dancePairs.cpp
+dancePairs.hpp
+/home/ics46b/projects/proj2/app/dancePairs.hpp
 LLQueue.hpp
 /home/ics46b/projects/proj2/app/LLQueue.hpp
-map
--
 string
 -
 sstream
@@ -38,10 +38,12 @@ sstream
 vector
 -
 
-/home/ics46b/projects/proj2/app/proj2.hpp
+/home/ics46b/projects/proj2/app/dancePairs.hpp
 map
 -
 iostream
+-
+sstream
 -
 
 /home/ics46b/projects/proj2/app/runtimeexcept.hpp
@@ -57,8 +59,8 @@ gtest/gtest.h
 /home/ics46b/projects/proj2/gtest/gtest/gtest.h
 LLQueue.hpp
 /home/ics46b/projects/proj2/gtest/LLQueue.hpp
-proj2.hpp
-/home/ics46b/projects/proj2/gtest/proj2.hpp
+dancePairs.hpp
+/home/ics46b/projects/proj2/gtest/dancePairs.hpp
 string
 -
 sstream

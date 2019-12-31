@@ -149,6 +149,39 @@ a.out.exp/fast:
 	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/build
 .PHONY : a.out.exp/fast
 
+app/dancePairs.o: app/dancePairs.cpp.o
+
+.PHONY : app/dancePairs.o
+
+# target to build an object file
+app/dancePairs.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/dancePairs.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.o
+.PHONY : app/dancePairs.cpp.o
+
+app/dancePairs.i: app/dancePairs.cpp.i
+
+.PHONY : app/dancePairs.i
+
+# target to preprocess a source file
+app/dancePairs.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/dancePairs.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.i
+.PHONY : app/dancePairs.cpp.i
+
+app/dancePairs.s: app/dancePairs.cpp.s
+
+.PHONY : app/dancePairs.s
+
+# target to generate assembly for a file
+app/dancePairs.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/dancePairs.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/dancePairs.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/dancePairs.cpp.s
+.PHONY : app/dancePairs.cpp.s
+
 app/main.o: app/main.cpp.o
 
 .PHONY : app/main.o
@@ -175,39 +208,6 @@ app/main.s: app/main.cpp.s
 app/main.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/main.cpp.s
 .PHONY : app/main.cpp.s
-
-app/proj2.o: app/proj2.cpp.o
-
-.PHONY : app/proj2.o
-
-# target to build an object file
-app/proj2.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj2.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj2.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj2.cpp.o
-.PHONY : app/proj2.cpp.o
-
-app/proj2.i: app/proj2.cpp.i
-
-.PHONY : app/proj2.i
-
-# target to preprocess a source file
-app/proj2.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj2.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj2.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj2.cpp.i
-.PHONY : app/proj2.cpp.i
-
-app/proj2.s: app/proj2.cpp.s
-
-.PHONY : app/proj2.s
-
-# target to generate assembly for a file
-app/proj2.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/proj2.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/proj2.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.exp.dir/build.make CMakeFiles/a.out.exp.dir/app/proj2.cpp.s
-.PHONY : app/proj2.cpp.s
 
 exp/expmain.o: exp/expmain.cpp.o
 
@@ -301,12 +301,12 @@ help:
 	@echo "... a.out.gtest"
 	@echo "... a.out.app"
 	@echo "... a.out.exp"
+	@echo "... app/dancePairs.o"
+	@echo "... app/dancePairs.i"
+	@echo "... app/dancePairs.s"
 	@echo "... app/main.o"
 	@echo "... app/main.i"
 	@echo "... app/main.s"
-	@echo "... app/proj2.o"
-	@echo "... app/proj2.i"
-	@echo "... app/proj2.s"
 	@echo "... exp/expmain.o"
 	@echo "... exp/expmain.i"
 	@echo "... exp/expmain.s"
